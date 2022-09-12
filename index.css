@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Koulen", cursive;
+  width: 100%;
+  height: 100%;
+}
+body .menuContainer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+body .menuContainer .logo {
+  width: 10%;
+  height: 100%;
+}
+body .menuContainer .logo a svg {
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+}
+body .menuContainer .list {
+  width: 90%;
+  height: 100%;
+  background-color: rgb(118, 158, 222);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid black;
+}
+body .menuContainer .list ul {
+  float: right;
+}
+body .menuContainer .list ul li {
+  padding: 10px 10px 0 10px;
+  display: inline-block;
+  list-style: none;
+}
+body .menuContainer .list ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 300ms;
+}
+body .menuContainer .list ul li a:hover {
+  text-shadow: 0 0 20px black;
+}
+body .photobox {
+  margin: 50px 0 0 0;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
+  background-image: url("https://wallpaperaccess.com/full/2539467.jpg");
+  border-radius: 15px;
+}
+body .photobox .text {
+  padding: 150px 0 0 20px;
+  text-align: center;
+  width: 60%;
+  height: 100%;
+  color: black;
+}
+body .photobox .photo {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .photobox .photo img {
+  width: 50%;
+  height: 50%;
+}
+body .more {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .more .ranks {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .more .ranks .co1 img {
+  border-radius: 50%;
+}
+body .more .ranks .ceo {
+  padding: 0 20px;
+  transform: translateY(-30px);
+}
+body .more .ranks .ceo img {
+  border-radius: 50%;
+}
+body .more .ranks .co2 img {
+  border-radius: 50%;
+}
+body .more .about {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding-top: 50px;
+}/*# sourceMappingURL=index.css.map */
